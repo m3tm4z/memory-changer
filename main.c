@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-#include "lib/xnumem/xnumem.h"
+#include "lib/darwin/xnumem.h"
 
 int main(int argc, const char *argv[]) {
     size_t size = sizeof(int);  // data size
